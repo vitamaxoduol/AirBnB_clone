@@ -1,0 +1,33 @@
+section.filters {
+    display: flex;
+    /* align-items: center; */
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;  
+    border-radius: 4px;
+}
+
+section.filters button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    border: 0;
+    width: 20%;
+    border-radius: 4px;
+    right: 30px;
+    /* position: fixed; */
+    /* display: flex; */
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 11px 30px auto auto;
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+
+}
+
+section.filters button:hover {
+    opacity: 90%;
+}
